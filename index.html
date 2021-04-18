@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" />
+    <title>Book List</title>
+</head>
+<body style="margin-left: 100px;">
+    <br>
+    <h2>Simpel Book List!</h2>
+    <div id="alert_area"></div>
+    <br>
+
+    <form id="bookadd">
+        <div><b>Title</b></div>
+        <input type="text" id="title">
+        <br>
+        <div><b>Author<b></b></div>
+        <input type="text" id="author">
+        <br>
+        <div><b>ISBN#</b></div>
+        <input type="text" id="isbn">
+        <button type="submit" id="sub">Submit</button>
+    </form>
+        <br>
+
+        <table id="book_list">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="list_body">
+                
+            </tbody>
+
+        </table>
+  
+<script src="js/script.js"></script>        
+</body>
+</html>
